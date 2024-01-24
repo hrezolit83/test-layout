@@ -1,0 +1,240 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #FFFFFF;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+
+ul {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.common-container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1440px;
+    height: 100%;
+    
+}
+.dashboard-container {
+    min-height: 100%;
+    height: 1198px;
+    width: 306px;
+    padding: 36px 28px 76px 28px;
+    box-shadow: 0px 10px 60px rgba(225.83, 236.19, 248.63, 0.50);
+    position: relative;
+}
+
+
+
+.dashboard-heading {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.043em;
+    margin-bottom: 65px;
+}
+.dashboard-span {
+    color: #838383;
+    font-size: 10px;
+    font-weight: 500;
+}
+.dashboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+.dashboard-items {
+    color: #9197B3;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dashboard-avatar {
+    position: absolute;
+    bottom: 70px;
+}
+
+.main-container {
+    background-color: #FAFBFF;
+    padding-left: 71px;
+    padding-top: 41px;
+    padding-right: 95px;
+    min-height: 100%;
+}
+.main-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 51px;
+}
+.customers-container {
+    width: 968px;
+    height: 812px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(225.83, 236.19, 248.63, 0.50); 
+    border-radius: 30px;
+    padding: 30px 44px 40px 38px;
+    position: relative;
+    
+}
+.customers-heading {
+ font-size: 22px;
+ font-weight: 600;
+ margin-bottom: 7px;
+}
+.members-text {
+    color: #16C098;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.search-form {
+    position: absolute;
+    top: 44px;
+    right: 53px;
+
+}
+.search-input {
+    outline: none;
+    border: none;
+    background-color: #F9FBFF;
+    width: 216px;
+    height: 38px;
+    padding: 7px 8px;
+    border-radius: 10px; 
+    /* border: 1px solid; */
+}
+
+::placeholder {
+    color: #B5B7C0;
+    font-size: 12px;
+}
+
+.customers-table {
+    
+}
+.customers-string {
+   
+}
+
+td {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px #EEEEEE solid;
+}
+
+th {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+th::after{
+    background-color: #EEEEEE;
+    width: 175%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: -38px;
+    bottom: 0;
+}
+
+.customers-heading-text {
+    text-align: left;
+    color: #B5B7C0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customers-heading-text-status {
+    text-align: center;
+    color: #B5B7C0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customers-text {
+    text-align: left;
+    color: #292D32;
+    font-size: 14px;
+    font-weight: 500;
+}
+.customers-status-active-text {
+    text-align: center;
+    color: #008767;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.span-active-status {
+    background: rgba(22, 192, 152, 0.38); 
+    border-radius: 4px; 
+    border: 1px #00B087 solid;
+    padding: 4px 17px;
+}
+
+.customers-status-inactive-text {
+    text-align: center;
+    color: #DF0404;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.span-inactive-status {
+    background: #FFC5C5; 
+    border-radius: 4px; 
+    border: 1px #DF0404 solid;
+    padding: 4px 12px;
+}
+
+.customers-showing-navigation {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.customers-showing-text {
+    color: #B5B7C0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.customers-navigation-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.customers-navigation-items {
+    color: #404B52;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    width: 26px;
+    height: 24px;
+    background: #F5F5F5; 
+    border-radius: 4px; 
+    border: 1px #EEEEEE solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
