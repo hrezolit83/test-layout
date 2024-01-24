@@ -21,19 +21,120 @@
     <main>
         <div class="common-container">
             <div class="dashboard-container">
-                <h1 class="dashboard-heading">Dashboard <span class="dashboard-span">v.01</span></h1>
+                <div class="dashboard-logo-wrap">
+                    <div>
+                        <svg class="dashboard-logo-svg" width="37" height="37">
+                            <use href="./img/icons.svg#icon-setting-1"></use>
+                        </svg>
+                    </div>
+                    <div><h1 class="dashboard-heading">Dashboard <span class="dashboard-span">v.01</span></h1></div>
+                </div>
                             <ul class="dashboard-list">
-                                <li class="dashboard-items">Dashboard</li>
-                                <li class="dashboard-items">Product</li>
-                                <li class="dashboard-items">Customers</li>
-                                <li class="dashboard-items">Income</li>
-                                <li class="dashboard-items">Promote</li>
-                                <li class="dashboard-items">Help</li>
+                                <li class="dashboard-items">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg class="dashboard-svg-nofill" width="24" height="24">
+                                                <use href="./img/icons.svg#icon-key-square"></use>
+                                            </svg>
+                                        </div>
+                                        Dashboard
+                                    </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="dashboard-svg-nofill" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li class="dashboard-items">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg class="dashboard-svg" width="24" height="24">
+                                                <use href="./img/icons.svg#icon-d-square-1"></use>
+                                            </svg>
+                                        </div>
+                                        Product
+                                    </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="dashboard-svg-nofill" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li class="dashboard-items current-link">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg width="24" height="24">
+                                                <use href="./img/icons.svg#icon-user-square-1"></use>
+                                            </svg>
+                                        </div>
+                                        Customers
+                                    </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li class="dashboard-items">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg class="dashboard-svg-nofill" width="24" height="24">
+                                                <use href="./img/icons.svg#icon-wallet-money-2"></use>
+                                            </svg>
+                                        </div>
+                                    Income
+                                </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="dashboard-svg-nofill" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li class="dashboard-items">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg class="dashboard-svg" width="24" height="24">
+                                                <use href="./img/icons.svg#icon-discount-shape-1"></use>
+                                            </svg>
+                                        </div>
+                                        Promote
+                                    </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="dashboard-svg-nofill" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
+                                <li class="dashboard-items">
+                                    <div class="dashboard-items-wrap">
+                                        <div>
+                                            <svg class="dashboard-svg" width="24" height="24">
+                                                <use href="./img/icons.svg#icon-message-question-1"></use>
+                                            </svg>
+                                        </div>
+                                        Help
+                                    </div>
+                                    <div class="dashboard-svg-shevron">
+                                        <svg class="dashboard-svg-nofill" width="16" height="16">
+                                            <use href="./img/icons.svg#icon-chevron-right-2"></use>
+                                        </svg>
+                                    </div>
+                                </li>
                             </ul>
-                        <div class="dashboard-avatar">
-                            <h3>Evano</h3>
-                            <p>Project Manager</p>
-                        </div>
+                            <div class="dashboard-avatar-wrap">
+                                <div class="dashboard-avatar-img">
+                                    <img 
+                                    src="./img/Ellipse 8.svg"
+                                    alt="User Avatar"
+                                    width=""
+                                    height=""
+                                    >
+                                </div>
+                                <div class="dashboard-avatar">
+                                    <div><h3 class="dashboard-avatar-heading">Evano</h3></div>
+                                    <div><p class="dashboard-avatar-text">Project Manager</p></div>
+                                </div>
+                            </div>
             </div>
             <div class="main-container">
                 <h2 class="main-heading">Hello Evano 👋🏼,</h2>
@@ -124,14 +225,14 @@
                     <div class="customers-showing-navigation">
                         <p class="customers-showing-text">Showing data 1 to 8 of  256K entries</p>
                         <ul class="customers-navigation-numbers">
-                            <li class="customers-navigation-items"></li>
-                            <li class="customers-navigation-items">1</li>
+                            <li class="customers-navigation-items"><</li>
+                            <li class="customers-navigation-items current-page">1</li>
                             <li class="customers-navigation-items">2</li>
                             <li class="customers-navigation-items">3</li>
                             <li class="customers-navigation-items">4</li>
                             <li class="customers-navigation-items">...</li>
                             <li class="customers-navigation-items">40</li>
-                            <li class="customers-navigation-items"></li>
+                            <li class="customers-navigation-items">></li>
                         </ul>
                     </div>
                 </div>

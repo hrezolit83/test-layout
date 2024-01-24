@@ -48,13 +48,18 @@ img {
     position: relative;
 }
 
-
+.dashboard-logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 65px;
+}
 
 .dashboard-heading {
     font-size: 26px;
     font-weight: 600;
-    letter-spacing: 0.043em;
-    margin-bottom: 65px;
+    letter-spacing: 0.04em;
 }
 .dashboard-span {
     color: #838383;
@@ -67,13 +72,62 @@ img {
     gap: 43px;
 }
 .dashboard-items {
+    display: flex;
+    align-items: center;
+    gap: 14px;
     color: #9197B3;
     font-size: 14px;
     font-weight: 500;
 }
+
+.dashboard-items-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-grow: 1;
+    padding-left: 11px;
+}
+
+.dashboard-svg {
+    fill: #9197B3;
+   
+}
+
+.dashboard-svg-nofill {
+    fill: #FFFFFF;
+    stroke: #9197B3;
+}
+  
+.dashboard-svg-shevron {
+    padding-right: 8px;
+}
+
 .dashboard-avatar {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.dashboard-avatar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     position: absolute;
     bottom: 70px;
+}
+
+.dashboard-avatar-heading {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.dashboard-avatar-text {
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .main-container {
@@ -130,12 +184,6 @@ img {
     font-size: 12px;
 }
 
-.customers-table {
-    
-}
-.customers-string {
-   
-}
 
 td {
     padding-top: 24px;
@@ -236,5 +284,23 @@ th::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+.current-link {
+    width: 100%;
+    height: 46px;
+    background-color: #5932EA;
+    border-radius: 8px;
+    color: #FFFFFF;
+    fill: #5932EA;
+    stroke: #FFFFFF;
+}
+
+.current-page {
+    background-color: #5932EA;
+    color: #FFFFFF;
+}
+.current-link-icons {
+    stroke: #FFFFFF;
+    fill: #5932EA;
 }
